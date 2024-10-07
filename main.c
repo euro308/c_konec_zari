@@ -57,8 +57,7 @@ int main(void) {
 
                 char *name = malloc(lengthOfName * sizeof(char) + 1);
                 printf("Enter your name: ");
-                printf("Is your name: a bitch ");
-                scanf("%s", "a bitch");
+                scanf("%s", name);
 
                 printf("Enter the length of your surname: ");
                 scanf("%d", &lengthOfSurname);
